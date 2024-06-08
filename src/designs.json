@@ -2,47 +2,47 @@
 	"designs": [
 		{
 			"id": 1,
-			"img": "./designs/tropical-maracuya.png"
+			"img": "https://res.cloudinary.com/hothra/image/upload/v1717888582/isaac%20portafolio/tropical-maracuya_kqm8ht.png"
 		},
 		{
 			"id": 2,
-			"img": "./designs/fluval-post.jpg"
+			"img": "https://res.cloudinary.com/hothra/image/upload/v1717888580/isaac%20portafolio/fluval-post_q5iquf.jpg"
 		},
 		{
 			"id": 3,
-			"img": "./designs/humanizacion.png"
+			"img": "https://res.cloudinary.com/hothra/image/upload/v1717888584/isaac%20portafolio/humanizacion_tn4dfd.png"
 		},
 		{
 			"id": 4,
-			"img": "./designs/lavazza-gran-riserva.jpg"
+			"img": "https://res.cloudinary.com/hothra/image/upload/v1717888582/isaac%20portafolio/lavazza-gran-riserva_lkitti.jpg"
 		},
 		{
 			"id": 5,
-			"img": "./designs/peroni.jpg"
+			"img": "https://res.cloudinary.com/hothra/image/upload/v1717888578/isaac%20portafolio/peroni_whjurl.jpg"
 		},
 		{
 			"id": 6,
-			"img": "./designs/trovero.jpg"
+			"img": "https://res.cloudinary.com/hothra/image/upload/v1717888580/isaac%20portafolio/trovero_lubeqm.jpg"
 		},
 		{
 			"id": 7,
-			"img": "./designs/medicamentos.png"
+			"img": "https://res.cloudinary.com/hothra/image/upload/v1717888582/isaac%20portafolio/medicamentos_gxlcoz.png"
 		},
 		{
 			"id": 8,
-			"img": "./designs/tomate-seco-selva.jpg"
+			"img": "https://res.cloudinary.com/hothra/image/upload/v1717888578/isaac%20portafolio/tomate-seco-selva_g4squg.jpg"
 		},
 		{
 			"id": 9,
-			"img": "./designs/coctel.png"
+			"img": "https://res.cloudinary.com/hothra/image/upload/v1717888583/isaac%20portafolio/coctel_hm7asp.png"
 		},
 		{
 			"id": 10,
-			"img": "./designs/mockup-the-culture-Clan.jpg"
+			"img": "https://res.cloudinary.com/hothra/image/upload/v1717888578/isaac%20portafolio/mockup-the-culture-Clan_cwg6ar.jpg"
 		},
 		{
 			"id": 11,
-			"img": "./designs/estado-pasos-mascotas.png"
+			"img": "https://res.cloudinary.com/hothra/image/upload/v1717888581/isaac%20portafolio/estado-pasos-mascotas_bja3z6.png"
 		}
 	]
 }

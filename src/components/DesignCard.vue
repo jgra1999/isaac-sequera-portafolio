@@ -10,5 +10,5 @@ defineProps<Props>()
 </script>
 
 <template>
-	<img :src="design.img" alt="" />
+	<img :src="design.img" alt="" loading="lazy" />
 </template>
