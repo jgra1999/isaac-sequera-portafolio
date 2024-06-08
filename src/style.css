@@ -1,0 +1,178 @@
+:root {
+	font-family: Poppins, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+
+	color-scheme: light dark;
+	color: rgba(255, 255, 255, 0.87);
+	background-color: #202020;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	overflow-x: hidden;
+}
+
+section {
+	columns: 2;
+	padding: 16px 32px;
+	column-gap: 32px;
+	width: 90%;
+	margin: auto;
+}
+
+@media (min-width: 600px) {
+	section {
+		columns: 3;
+	}
+}
+
+section img {
+	border-radius: 4px;
+	width: 100%;
+	height: auto;
+	margin-bottom: 32px;
+
+	animation: reveal-img linear both;
+	animation-timeline: view();
+	animation-range: entry 20% cover 40%;
+}
+/* 
+h1 {
+	text-align: center;
+	padding: 16px;
+	width: 100%;
+	position: sticky;
+	top: 0;
+
+	animation: enhance-header linear both;
+	animation-timeline: scroll(root block);
+	animation-range: 0 200px;
+	z-index: 10;
+} */
+
+@keyframes enhance-header {
+	to {
+		background-color: rgba(255, 255, 255, 0.4);
+		backdrop-filter: blur(5px);
+		font-size: 18px;
+		color: black;
+	}
+}
+
+@keyframes reveal-img {
+	from {
+		opacity: 0;
+		translate: 0 100px;
+	}
+	to {
+		opacity: 1;
+		translate: 0 0;
+	}
+}
+
+/* Hero styles */
+.hero__container {
+	display: flex;
+	align-items: center;
+	padding-left: 50px;
+	width: 100%;
+	height: 100vh;
+	background-color: #b9b3a9;
+}
+
+.hero__container h1 {
+	color: #242424;
+	text-transform: uppercase;
+	font-size: 3rem;
+	width: 60%;
+}
+
+@media (min-width: 500px) {
+	.hero__container h1 {
+		font-size: 5rem;
+	}
+}
+
+/* About styles */
+@keyframes move {
+	to {
+		/* Move horizontally so that right edge is aligned against the viewport */
+		transform: translateX(calc(-100% + 100vw));
+	}
+}
+
+#sectionPin {
+	/* Stretch it out, so that we create room for the horizontal scroll animation */
+	height: 500vh;
+	overflow: visible; /* To make position sticky work … */
+
+	view-timeline-name: --section-pin-tl;
+	view-timeline-axis: block;
+}
+
+.pin-wrap-sticky {
+	/* Stick to Top */
+	height: 100vh;
+	width: 100vw;
+	position: sticky;
+	top: 0;
+
+	overflow-x: hidden;
+}
+
+.pin-wrap {
+	height: 100vh;
+	width: 250vmax;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 50px 8vw;
+	column-gap: 120px;
+
+	/* Hook animation */
+	will-change: transform;
+	animation: linear move forwards;
+
+	/* Link animation to view-timeline */
+	animation-timeline: --section-pin-tl;
+	animation-range: contain 0% contain 100%;
+}
+
+.about__description {
+	display: flex;
+	flex-direction: column;
+	max-width: 600px;
+	margin-right: 20px;
+
+	& h2 {
+		font-size: 60px;
+	}
+
+	& p {
+		font-size: 1rem;
+		margin-bottom: 10px;
+	}
+}
+
+.about__img__container img {
+	height: 80vh;
+	width: auto;
+	max-width: 100%;
+	object-fit: cover;
+}
+
+@media (min-width: 500px) {
+	.about__description p {
+		font-size: 1.125rem;
+	}
+}

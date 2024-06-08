@@ -1,0 +1,48 @@
+{
+	"designs": [
+		{
+			"id": 1,
+			"img": "./designs/tropical-maracuya.png"
+		},
+		{
+			"id": 2,
+			"img": "./designs/fluval-post.jpg"
+		},
+		{
+			"id": 3,
+			"img": "./designs/humanizacion.png"
+		},
+		{
+			"id": 4,
+			"img": "./designs/lavazza-gran-riserva.jpg"
+		},
+		{
+			"id": 5,
+			"img": "./designs/peroni.jpg"
+		},
+		{
+			"id": 6,
+			"img": "./designs/trovero.jpg"
+		},
+		{
+			"id": 7,
+			"img": "./designs/medicamentos.png"
+		},
+		{
+			"id": 8,
+			"img": "./designs/tomate-seco-selva.jpg"
+		},
+		{
+			"id": 9,
+			"img": "./designs/coctel.png"
+		},
+		{
+			"id": 10,
+			"img": "./designs/mockup-the-culture-Clan.jpg"
+		},
+		{
+			"id": 11,
+			"img": "./designs/estado-pasos-mascotas.png"
+		}
+	]
+}
