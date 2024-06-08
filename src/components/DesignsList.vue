@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { onMounted, ref } from 'vue'
 import DesignCard from './DesignCard.vue'
 import data from '../designs.json'
 </script>
