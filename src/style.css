@@ -136,7 +136,7 @@ h1 {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-	padding: 50px 8vw;
+	padding: 50px 10vw;
 	column-gap: 120px;
 
 	/* Hook animation */
@@ -151,11 +151,11 @@ h1 {
 .about__description {
 	display: flex;
 	flex-direction: column;
-	max-width: 600px;
+	max-width: 300px;
 	margin-right: 20px;
 
 	& h2 {
-		font-size: 60px;
+		font-size: 40px;
 	}
 
 	& p {
@@ -172,7 +172,14 @@ h1 {
 }
 
 @media (min-width: 500px) {
-	.about__description p {
-		font-size: 1.125rem;
+	.about__description {
+		max-width: 600px;
+
+		& h2 {
+			font-size: 60px;
+		}
+		& p {
+			font-size: 1.125rem;
+		}
 	}
 }
