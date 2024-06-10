@@ -29,5 +29,9 @@
 				</div>
 			</div>
 		</div>
+		<span class="develop__mention">
+			Developed by
+			<a href="https://github.com/jgra1999" target="_blank">jgra1999</a> 🔥</span
+		>
 	</footer>
 </template>
