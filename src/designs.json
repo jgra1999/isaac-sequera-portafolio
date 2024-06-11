@@ -2,71 +2,88 @@
 	"designs": [
 		{
 			"id": 1,
-			"img": "https://res.cloudinary.com/hothra/image/upload/v1717888582/isaac%20portafolio/tropical-maracuya_kqm8ht.png"
+			"img": "https://res.cloudinary.com/hothra/image/upload/v1718118101/isaac%20portafolio/maracuya_vtmgfw.webp",
+			"name": "Cóctel de Maracuya"
 		},
 		{
 			"id": 2,
-			"img": "https://res.cloudinary.com/hothra/image/upload/v1717888580/isaac%20portafolio/fluval-post_q5iquf.jpg"
+			"img": "https://res.cloudinary.com/hothra/image/upload/v1718118101/isaac%20portafolio/fluval-post_wq5hgp.webp",
+			"name": "Fluval"
 		},
 		{
 			"id": 3,
-			"img": "https://res.cloudinary.com/hothra/image/upload/v1717888584/isaac%20portafolio/humanizacion_tn4dfd.png"
+			"img": "https://res.cloudinary.com/hothra/image/upload/v1718118096/isaac%20portafolio/humanizacion_hsznxr.webp",
+			"name": "Iguana "
 		},
 		{
 			"id": 4,
-			"img": "https://res.cloudinary.com/hothra/image/upload/v1717888582/isaac%20portafolio/lavazza-gran-riserva_lkitti.jpg"
+			"img": "https://res.cloudinary.com/hothra/image/upload/v1718118096/isaac%20portafolio/lavazza-gran-riserva_ikbgho.webp",
+			"name": "Lavazza"
 		},
 		{
 			"id": 5,
-			"img": "https://res.cloudinary.com/hothra/image/upload/v1717888578/isaac%20portafolio/peroni_whjurl.jpg"
+			"img": "https://res.cloudinary.com/hothra/image/upload/v1718118095/isaac%20portafolio/peroni_frkaaj.webp",
+			"name": "Lavazza"
 		},
 		{
 			"id": 6,
-			"img": "https://res.cloudinary.com/hothra/image/upload/v1717888580/isaac%20portafolio/trovero_lubeqm.jpg"
+			"img": "https://res.cloudinary.com/hothra/image/upload/v1718118095/isaac%20portafolio/trovero_zkkm4o.webp",
+			"name": "Vino Trovero"
 		},
 		{
 			"id": 7,
-			"img": "https://res.cloudinary.com/hothra/image/upload/v1717888582/isaac%20portafolio/medicamentos_gxlcoz.png"
+			"img": "https://res.cloudinary.com/hothra/image/upload/v1718118097/isaac%20portafolio/medicamentos_sai3ai.webp",
+			"name": "Medicamentos"
 		},
 		{
 			"id": 8,
-			"img": "https://res.cloudinary.com/hothra/image/upload/v1717888578/isaac%20portafolio/tomate-seco-selva_g4squg.jpg"
+			"img": "https://res.cloudinary.com/hothra/image/upload/v1718118095/isaac%20portafolio/tomate-seco-selva_cmvhcf.webp",
+			"name": "Tomate seco selva"
 		},
 		{
 			"id": 9,
-			"img": "https://res.cloudinary.com/hothra/image/upload/v1717888583/isaac%20portafolio/coctel_hm7asp.png"
+			"img": "https://res.cloudinary.com/hothra/image/upload/v1718118096/isaac%20portafolio/coctel_cdzjnl.webp",
+			"name": "Cóctel"
 		},
 		{
 			"id": 10,
-			"img": "https://res.cloudinary.com/hothra/image/upload/v1717888578/isaac%20portafolio/mockup-the-culture-Clan_cwg6ar.jpg"
+			"img": "https://res.cloudinary.com/hothra/image/upload/v1718118095/isaac%20portafolio/mockup-the-culture-Clan_vwvbmy.webp",
+			"name": "The Culture Clan"
 		},
 		{
 			"id": 11,
-			"img": "https://res.cloudinary.com/hothra/image/upload/v1717888581/isaac%20portafolio/estado-pasos-mascotas_bja3z6.png"
+			"img": "https://res.cloudinary.com/hothra/image/upload/v1718118096/isaac%20portafolio/estado-pasos-mascotas_sxnn1t.webp",
+			"name": "Estado Mascotas"
 		},
 		{
 			"id": 12,
-			"img": "https://res.cloudinary.com/hothra/image/upload/v1717985405/isaac%20portafolio/Promo-La-Ferrari-2_dvlzgs.png"
+			"img": "https://res.cloudinary.com/hothra/image/upload/v1718118095/isaac%20portafolio/Promo-La-Ferrari-2_nyfmro.webp",
+			"name": "La ferrari"
 		},
 		{
 			"id": 13,
-			"img": "https://res.cloudinary.com/hothra/image/upload/v1717985386/isaac%20portafolio/one-direction_mfevn7.webp"
+			"img": "https://res.cloudinary.com/hothra/image/upload/v1717985386/isaac%20portafolio/one-direction_mfevn7.webp",
+			"name": "One Direction"
 		},
 		{
 			"id": 14,
-			"img": "https://res.cloudinary.com/hothra/image/upload/v1717985382/isaac%20portafolio/Mesa_de_trabajo_1_w37vcg.png"
+			"img": "https://res.cloudinary.com/hothra/image/upload/v1717985382/isaac%20portafolio/Mesa_de_trabajo_1_w37vcg.png",
+			"name": "Iguala Logo"
 		},
 		{
 			"id": 15,
-			"img": "https://res.cloudinary.com/hothra/image/upload/v1717985384/isaac%20portafolio/Franela-cross_chkmfc.webp"
+			"img": "https://res.cloudinary.com/hothra/image/upload/v1717985384/isaac%20portafolio/Franela-cross_chkmfc.webp",
+			"name": "Franelas Cross"
 		},
 		{
 			"id": 16,
-			"img": "https://res.cloudinary.com/hothra/image/upload/v1717985386/isaac%20portafolio/2x1-Mojito_heuvax.png"
+			"img": "https://res.cloudinary.com/hothra/image/upload/v1718118096/isaac%20portafolio/2x1-Mojito_wdmaz0.webp",
+			"name": "Medicamentos"
 		},
 		{
 			"id": 17,
-			"img": "https://res.cloudinary.com/hothra/image/upload/v1717985387/isaac%20portafolio/Mac-miller_ejfojc.webp"
+			"img": "https://res.cloudinary.com/hothra/image/upload/v1718118097/isaac%20portafolio/mac-miller_hw4asn.webp",
+			"name": "Mac Miller"
 		}
 	]
 }
